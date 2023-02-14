@@ -1,0 +1,57 @@
+.smallPic
+{
+height:200px;
+cursor: zoom-in;
+}
+
+.bigPic
+{
+height:500px;
+cursor: zoom-out;
+}
+
+p, input, span
+{
+	margin: 20px;
+}
+
+img
+{
+	margin:20px;
+}
+
+select
+{
+	float: right;
+	margin: 20px;
+}
+
+/* This is for the xes that are supposed to show up on top of image for removal.  But even the 
+z-index trick does not seem to be working*/
+.remover
+{
+	z-index: 1;
+	position: absolute;
+}
+
+#shape
+{
+float:right;
+margin:20px;
+}
+
+.normal
+{
+border-radius: none;
+}
+
+.roundedCorners
+{
+	border-radius: 10px;
+}
+
+
+span
+{
+
+}
